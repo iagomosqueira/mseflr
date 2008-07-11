@@ -2,7 +2,7 @@
 
 TortoiseSVN is a simple to use, Open Source tool for the Subversion version control system that is employed by GoogleCode.  It integrates neatly with Windows explorer making it a good choice for checking out, updating and committing changes to the code repository.
 
-Here we demonstrate how to install and use it.  Detailed instructions on it's use can be found at the [http://tortoisesvn.tigris.org/ TortoiseSVN website]
+Here we demonstrate how to install and use it.  Detailed instructions on it's use can be found at the [http://tortoisesvn.tigris.org/ TortoiseSVN website].
 
 == Installing TortoiseSVN ==
 
@@ -47,8 +47,12 @@ If your network uses a proxy server (like at Cefas) then you will also need to s
 
 There is no need to repeatedly checkout out the project everytime the source or data files in the project are changed.  It is more convenient to use the _update_ option.  This compares your local versions of the project files with the versions in the repository.  If the versions in the repository are newer, your files will be updated.
 
+To update the project, right click on the project folder in explorer (note that it has a little green tick symbol, showing that it is an SVN project) and select _SVN Update_.
+
 http://lh6.ggpht.com/drfinlayscott/SHdkUnmsLBI/AAAAAAAAARA/zWbf51LELsA/s800/TSVNupdate.png
 
-If your local files are newer than the ones in the repository then...
-
 == Committing changes ==
+
+If you make changes to any of the project files the little green tick symbol will turn to a red exclamation mark, signifying that the file is now different to that in the repository.  To commit your changes to the repository, right click on the project folder and select _SVN Commit_.  You will be invited to enter text describing the changes you have made.
+
+If you commit changes after someone else has commited changes (i.e. your original version was outdated) a _conflict_ is flagged up.  SVN will attempt to merge the differences.  If it cannot, the differences must be merged by hand (see the [http://tortoisesvn.tigris.org/ TortoiseSVN website] for help)
