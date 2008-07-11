@@ -1,14 +1,16 @@
 =Using TortoiseSVN=
 
-TortoiseSVN is a simple to use tool for the Subversion version control system that is employed by GoogleCode.  It integrates neatly with Windows explorer making it a good choice for checking out, updating and committing changes to the code repository.
+TortoiseSVN is a simple to use, Open Source tool for the Subversion version control system that is employed by GoogleCode.  It integrates neatly with Windows explorer making it a good choice for checking out, updating and committing changes to the code repository.
 
 Here we demonstrate how to install and use it.  Detailed instructions on it's use can be found at the [http://tortoisesvn.tigris.org/ TortoiseSVN website]
 
 == Installing TortoiseSVN ==
 
-
+TortoiseSVN can be downloaded from [http://tortoisesvn.net/downloads here].  Select the version you want (probably the 32 bit msi installer file) and download it.  Simply double click on the file to run it and install the application.  After installation you may need to restart your computer.
 
 == Checking out a project ==
+
+To use TortoiseSVN open up Windows explorer and navigate to the directory that you will checkout the project into.  Pressing the right mouse button will bring up the usual explorer menu but now with a few extra icons:
 
 
 
