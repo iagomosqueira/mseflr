@@ -18,12 +18,20 @@ Click on the _SVN Checkout_ icon and a Checkout window will open:
 
 http://lh4.ggpht.com/drfinlayscott/SHdA9DMIOYI/AAAAAAAAAQg/brbaNPFKnSw/s400/TSVNcheckout.png
 
+=== Finding the URL ===
+
 The URL of the project needs to be filled in.  This can be found from the GoogleCode project page, under the _Source_ tab where it has instructions on how to checkout the code:
 
 http://lh3.ggpht.com/drfinlayscott/SHc_1cfOmqI/AAAAAAAAAQY/701gFzkt3Rc/s800/TSVNsource.png
 
-Checking out can be carried out anonymously.  This does not require an account but means that you will not be able to commit changes.  To do this follow the URL for anonymous checkout.  For example, the URL for this project is: http://mseflr.googlecode.com/svn/trunk/ 
+Checking out can be carried out anonymously or as a project member.
+
+==== Anonymous checkout ====
+
+Anonymous checkout does not require an account but means that you will not be able to commit changes.  To do this follow the URL for anonymous checkout.  For example, the URL for this project is: http://mseflr.googlecode.com/svn/trunk/ 
 Just cut and paste this address into the checkout window.
+
+==== Project member checkout ====
 
 For project members, the URL is almost the same but it uses _https_ rather than _http_: https://mseflr.googlecode.com/svn/trunk/
 
