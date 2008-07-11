@@ -45,6 +45,10 @@ If your network uses a proxy server (like at Cefas) then you will also need to s
 
 == Updating a project ==
 
+There is no need to repeatedly checkout out the project everytime the source or data files in the project are changed.  It is more convenient to use the _update_ option.  This compares your local versions of the project files with the versions in the repository.  If the versions in the repository are newer, your files will be updated.
 
+
+
+If your local files are newer than the ones in the repository then...
 
 == Committing changes ==
