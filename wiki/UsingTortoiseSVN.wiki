@@ -27,6 +27,12 @@ Just cut and paste this address into the checkout window.
 
 For project members, the URL is almost the same but it uses _https_ rather than _http_: https://mseflr.googlecode.com/svn/trunk/
 
+If checking out as a project member you will then be prompted for your GoogleCode username and password.  These can be found under the _Profile_ section of GoogleCode (link is at top right of the page).  The password is automatically generated and is found under the _Settings_ tab of the _Profile_ page (if you already had a Google account, for example for e-mail, the GoogleCode password will be different to your normal password).
+
+=== Proxies ===
+
+If your network uses a proxy server (like at Cefas) then you will also need to set proxy settings.  These can be set by right clicking in explorer and selecting the _TortoiseSVN_ -> _Settings_ option.  Go under the _Network_ tab and enter the proxy settings.
+
 == Updating a project ==
 
 
