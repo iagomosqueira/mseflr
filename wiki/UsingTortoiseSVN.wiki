@@ -14,7 +14,16 @@ To use TortoiseSVN open up Windows explorer and navigate to the directory that y
 
 http://lh5.ggpht.com/drfinlayscott/SHc7EwbyzfI/AAAAAAAAAQQ/9xZcyo2xglc/s800/TSVN1.png
 
-Click on the _SVN Checkout_ icon and a Checkout window will open.  The URL of the project needs to be filled in.  This can be found from the GoogleCode project pages.
+Click on the _SVN Checkout_ icon and a Checkout window will open.  The URL of the project needs to be filled in.  This can be found from the GoogleCode project page, under the _Source_ tab where it has instructions on how to checkout the code.
+
+
+
+Checking out can be carried out anonymously.  This does not require an account but means that you will not be able to commit changes.
+
+To do this follow the URL for anonymous checkout.  For example, the URL for this project is: http://mseflr.googlecode.com/svn/trunk/ 
+
+
+
 
 == Updating a project ==
 
