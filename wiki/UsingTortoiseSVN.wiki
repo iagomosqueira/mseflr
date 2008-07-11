@@ -10,9 +10,11 @@ TortoiseSVN can be downloaded from [http://tortoisesvn.net/downloads here].  Sel
 
 == Checking out a project ==
 
-To use TortoiseSVN open up Windows explorer and navigate to the directory that you will checkout the project into.  Pressing the right mouse button will bring up the usual explorer menu but now with a few extra icons:
+To use TortoiseSVN open up Windows explorer and navigate to the directory that you will checkout the project into.  Pressing the right mouse button will bring up the usual explorer menu but now with two extra icons: SVN Checkout... and TortoiseSVN
 
 http://lh5.ggpht.com/drfinlayscott/SHc7EwbyzfI/AAAAAAAAAQQ/9xZcyo2xglc/s800/TSVN1.png
+
+Click on the _SVN Checkout_ icon and a Checkout window will open.  The URL of the project needs to be filled in.  This can be found from the GoogleCode project pages.
 
 == Updating a project ==
 
