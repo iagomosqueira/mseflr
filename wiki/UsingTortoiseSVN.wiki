@@ -35,7 +35,7 @@ Just cut and paste this address into the checkout window.
 
 ==== Project member checkout ====
 
-For project members, the URL is almost the same but it uses _https_ rather than _http_: https://mseflr.googlecode.com/svn/trunk/
+For project members, the URL is almost the same but it uses _https_ rather than _http_: https://mseflr.googlecode.com/svn/trunk/ To become member of a project you would need the project owner(s) to add you.
 
 If checking out as a project member you will then be prompted for your GoogleCode username and password.  These can be found under the _Profile_ section of GoogleCode (link is at top right of the page).  The password is automatically generated and is found under the _Settings_ tab of the _Profile_ page (if you already had a Google account, for example for e-mail, the GoogleCode password will be different to your normal password).
 
