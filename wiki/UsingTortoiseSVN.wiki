@@ -24,6 +24,8 @@ The URL of the project needs to be filled in.  This can be found from the Google
 
 http://lh3.ggpht.com/drfinlayscott/SHc_1cfOmqI/AAAAAAAAAQY/701gFzkt3Rc/s800/TSVNsource.png
 
+The instructions are for a command line SVN client.  We are not interested in all of the commands, only in the URL of the project.
+
 Checking out can be carried out anonymously or as a project member.
 
 ==== Anonymous checkout ====
