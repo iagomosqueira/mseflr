@@ -12,7 +12,7 @@ TortoiseSVN can be downloaded from [http://tortoisesvn.net/downloads here].  Sel
 
 To use TortoiseSVN open up Windows explorer and navigate to the directory that you will checkout the project into.  Pressing the right mouse button will bring up the usual explorer menu but now with a few extra icons:
 
-http://lh5.ggpht.com/drfinlayscott/SHc7EwbyzfI/AAAAAAAAAQQ/9xZcyo2xglc/s400/TSVN1.png
+http://lh5.ggpht.com/drfinlayscott/SHc7EwbyzfI/AAAAAAAAAQQ/9xZcyo2xglc/s800/TSVN1.png
 
 == Updating a project ==
 
