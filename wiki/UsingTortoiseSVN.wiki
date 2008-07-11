@@ -14,7 +14,11 @@ To use TortoiseSVN open up Windows explorer and navigate to the directory that y
 
 http://lh5.ggpht.com/drfinlayscott/SHc7EwbyzfI/AAAAAAAAAQQ/9xZcyo2xglc/s800/TSVN1.png
 
-Click on the _SVN Checkout_ icon and a Checkout window will open.  The URL of the project needs to be filled in.  This can be found from the GoogleCode project page, under the _Source_ tab where it has instructions on how to checkout the code:
+Click on the _SVN Checkout_ icon and a Checkout window will open:
+
+http://lh4.ggpht.com/drfinlayscott/SHdA9DMIOYI/AAAAAAAAAQg/brbaNPFKnSw/s400/TSVNcheckout.png
+
+The URL of the project needs to be filled in.  This can be found from the GoogleCode project page, under the _Source_ tab where it has instructions on how to checkout the code:
 
 http://lh3.ggpht.com/drfinlayscott/SHc_1cfOmqI/AAAAAAAAAQY/701gFzkt3Rc/s800/TSVNsource.png
 
