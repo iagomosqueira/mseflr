@@ -33,6 +33,8 @@ Checking out can be carried out anonymously or as a project member.
 Anonymous checkout does not require an account but means that you will not be able to commit changes.  To do this follow the URL for anonymous checkout.  For example, the URL for this project is: http://mseflr.googlecode.com/svn/trunk/ 
 Just cut and paste this address into the checkout window.
 
+Other projects e.g. myproj would have similar URLs e.g. http://myproj.googlecode.com/svn/trunk/
+
 ==== Project member checkout ====
 
 For project members, the URL is almost the same but it uses _https_ rather than _http_: https://mseflr.googlecode.com/svn/trunk/ To become member of a project you would need the project owner(s) to add you.
