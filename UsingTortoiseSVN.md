@@ -1,0 +1,60 @@
+# Using TortoiseSVN #
+
+TortoiseSVN is a simple to use, Open Source tool for the Subversion version control system that is employed by GoogleCode.  It integrates neatly with Windows explorer making it a good choice for checking out, updating and committing changes to the code repository.
+
+Here we demonstrate how to install and use it.  Detailed instructions on it's use can be found at the [TortoiseSVN website](http://tortoisesvn.tigris.org/).
+
+## Installing TortoiseSVN ##
+
+TortoiseSVN can be downloaded from [here](http://tortoisesvn.net/downloads).  Select the version you want (probably the 32 bit msi installer file) and download it.  Simply double click on the file to run it and install the application.  After installation you may need to restart your computer.
+
+## Checking out a project ##
+
+To use TortoiseSVN open up Windows explorer and navigate to the directory that you will checkout the project into.  Pressing the right mouse button will bring up the usual explorer menu but now with two extra icons: SVN Checkout... and TortoiseSVN
+
+![http://lh5.ggpht.com/drfinlayscott/SHc7EwbyzfI/AAAAAAAAAQQ/9xZcyo2xglc/s800/TSVN1.png](http://lh5.ggpht.com/drfinlayscott/SHc7EwbyzfI/AAAAAAAAAQQ/9xZcyo2xglc/s800/TSVN1.png)
+
+Click on the _SVN Checkout_ icon and a Checkout window will open:
+
+![http://lh4.ggpht.com/drfinlayscott/SHdA9DMIOYI/AAAAAAAAAQg/brbaNPFKnSw/s400/TSVNcheckout.png](http://lh4.ggpht.com/drfinlayscott/SHdA9DMIOYI/AAAAAAAAAQg/brbaNPFKnSw/s400/TSVNcheckout.png)
+
+### Finding the URL ###
+
+The URL of the project needs to be filled in.  This can be found from the GoogleCode project page, under the _Source_ tab where it has instructions on how to checkout the code:
+
+![http://lh3.ggpht.com/drfinlayscott/SHc_1cfOmqI/AAAAAAAAAQY/701gFzkt3Rc/s800/TSVNsource.png](http://lh3.ggpht.com/drfinlayscott/SHc_1cfOmqI/AAAAAAAAAQY/701gFzkt3Rc/s800/TSVNsource.png)
+
+The instructions are for a command line SVN client.  We are not interested in all of the commands, only in the URL of the project.
+
+Checking out can be carried out anonymously or as a project member.
+
+#### Anonymous checkout ####
+
+Anonymous checkout does not require an account but means that you will not be able to commit changes.  To do this follow the URL for anonymous checkout.  For example, the URL for this project is: http://mseflr.googlecode.com/svn/trunk/
+Just cut and paste this address into the checkout window.
+
+Other projects e.g. myproj would have similar URLs e.g. http://myproj.googlecode.com/svn/trunk/
+
+#### Project member checkout ####
+
+For project members, the URL is almost the same but it uses _https_ rather than _http_: https://mseflr.googlecode.com/svn/trunk/ To become member of a project you would need the project owner(s) to add you.
+
+If checking out as a project member you will then be prompted for your GoogleCode username and password.  These can be found under the _Profile_ section of GoogleCode (link is at top right of the page).  The password is automatically generated and is found under the _Settings_ tab of the _Profile_ page (if you already had a Google account, for example for e-mail, the GoogleCode password will be different to your normal password).
+
+### Proxies ###
+
+If your network uses a proxy server (like at Cefas) then you will also need to set proxy settings.  These can be set by right clicking in explorer and selecting the _TortoiseSVN_ -> _Settings_ option.  Go under the _Network_ tab and enter the proxy settings.
+
+## Updating a project ##
+
+There is no need to repeatedly checkout out the project everytime the source or data files in the project are changed.  It is more convenient to use the _update_ option.  This compares your local versions of the project files with the versions in the repository.  If the versions in the repository are newer, your files will be updated.
+
+To update the project, right click on the project folder in explorer (note that it has a little green tick symbol, showing that it is an SVN project) and select _SVN Update_.
+
+![http://lh6.ggpht.com/drfinlayscott/SHdkUnmsLBI/AAAAAAAAARA/zWbf51LELsA/s800/TSVNupdate.png](http://lh6.ggpht.com/drfinlayscott/SHdkUnmsLBI/AAAAAAAAARA/zWbf51LELsA/s800/TSVNupdate.png)
+
+## Committing changes ##
+
+If you make changes to any of the project files the little green tick symbol will turn to a red exclamation mark, signifying that the file is now different to that in the repository.  To commit your changes to the repository, right click on the project folder and select _SVN Commit_.  You will be invited to enter text describing the changes you have made.
+
+If you commit changes after someone else has commited changes (i.e. your original version was outdated) a _conflict_ is flagged up.  SVN will attempt to merge the differences.  If it cannot, the differences must be merged by hand (see the [TortoiseSVN website](http://tortoisesvn.tigris.org/) for help)
